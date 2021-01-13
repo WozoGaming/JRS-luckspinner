@@ -478,8 +478,8 @@
         open: function open (opts) {
             // Check for usage of deprecated options, and log a warning
             var warnDeprecated = function warnDeprecated (prop) {
-                console.warn('The "' + prop + '" property is deprecated in vex 3. Use CSS classes and the appropriate "ClassName" options, instead.')
-                console.warn('See http://github.hubspot.com/vex/api/advanced/#options')
+                //console.warn('The "' + prop + '" property is deprecated in vex 3. Use CSS classes and the appropriate "ClassName" options, instead.')
+                //console.warn('See http://github.hubspot.com/vex/api/advanced/#options')
             }
             if (opts.css) {
                 warnDeprecated('css')
